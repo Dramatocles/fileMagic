@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Shredder</title>
+    <link rel="stylesheet" type="text/css" href="css/fileUploadStyle.css" />
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Upload Your File</h2>
+        <form class="upload-form" action="./fileHandling.php" method="post" enctype="multipart/form-data">
+            <input type="file" id="file-selector" class="file-input" name="file">
+            <label for="file-selector" id="file-label" class="file-label">Choose File</label>
+            <br>
+            <input type="submit" class="submit-btn" value="Upload">
+        </form>
+    </div>
+
+</body>
+
+</html>
